@@ -42,6 +42,7 @@ public class Cat {
 		y = catY + MOUTH_Y;
 		g2.fillOval(x, y, MOUTH_WIDTH, MOUTH_HEIGHT);
 		g2.setColor(Color.red);
+		g2.setFont(new Font("Times New Roman", Font.BOLD, 14));
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
 		g2.drawString("Meow", catX + 30, catY+HEAD_DIMENSION+10);	
